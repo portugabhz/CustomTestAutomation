@@ -1,0 +1,8 @@
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Failed,=HYPERLINK("C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\TestResults\ErrorDetails_TestGoogleSearch_13092014_0854.html")
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Failed,=HYPERLINK("C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\TestResults\ErrorDetails_TestGoogleSearch_13092014_0854.html")

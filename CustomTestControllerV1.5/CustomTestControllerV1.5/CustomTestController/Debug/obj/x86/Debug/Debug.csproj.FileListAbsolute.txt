@@ -1,0 +1,15 @@
+C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\Debug\bin\Debug\Debug.exe
+C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\Debug\bin\Debug\Debug.pdb
+C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\Debug\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\Debug\obj\x86\Debug\Debug.exe
+C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\Debug\obj\x86\Debug\Debug.pdb
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\Debug\bin\Debug\Debug.exe
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\Debug\bin\Debug\Debug.pdb
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\Debug\obj\x86\Debug\Debug.csprojResolveAssemblyReference.cache
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\Debug\obj\x86\Debug\Debug.exe
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\Debug\obj\x86\Debug\Debug.pdb
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\Debug\bin\Debug\Debug.exe
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\Debug\bin\Debug\Debug.pdb
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\Debug\obj\x86\Debug\Debug.csprojResolveAssemblyReference.cache
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\Debug\obj\x86\Debug\Debug.exe
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\Debug\obj\x86\Debug\Debug.pdb

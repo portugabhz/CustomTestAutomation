@@ -1,0 +1,4 @@
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Failed,=HYPERLINK("C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\TestResults\ErrorDetails__09082012_1110.html")

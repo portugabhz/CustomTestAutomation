@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Reggie Esposa</Author>
+  <LastAuthor>Clifton Guzman</LastAuthor>
+  <Created>2012-06-28T14:28:14Z</Created>
+  <LastSaved>2012-07-23T18:38:08Z</LastSaved>
+  <Company>Microsoft</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7575</WindowHeight>
+  <WindowWidth>13680</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>180</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="TestSteps">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="109.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="269.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="329.25"/>
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="471.75"/>
+   <Column ss:Index="12" ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Step Number</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Action</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Target</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Value</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FindLogic</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Action</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Set Frame</Data></Cell>
+    <Cell><Data ss:Type="String">null</Data></Cell>
+    <Cell><Data ss:Type="String">Open browser and navigate to LIVE</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Navigate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Navigate</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="https://www.taskstream.com/pub/default.asp"><Data
+      ss:Type="String">https://www.taskstream.com/pub/default.asp</Data></Cell>
+    <Cell><Data ss:Type="String">Open browser and navigate to LIVE</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Click</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Type</Data></Cell>
+    <Cell><Data ss:Type="String">[UserName]</Data></Cell>
+    <Cell><Data ss:Type="String">Type AutomationGuy1 on username</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">txtNickName</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Wait</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Type</Data></Cell>
+    <Cell><Data ss:Type="String">[Password]</Data></Cell>
+    <Cell><Data ss:Type="String">Type taskstream1 on password</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">txtPassword</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Type</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">PassValue</Data></Cell>
+    <Cell><Data ss:Type="String">[MultiPlatform]</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">PassArray</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">PassArray</Data></Cell>
+    <Cell><Data ss:Type="String">[MultiPlatform],[TargetPlatform]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Call</Data></Cell>
+    <Cell><Data ss:Type="String">TestCodedStep.ClickPlatform</Data></Cell>
+    <Cell><Data ss:Type="String">Click Login button</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Set Frame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="12"><Data ss:Type="String">PassValue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:Index="12"><Data ss:Type="String">Execute</Data></Cell>
+   </Row>
+   <Row ss:Index="22" ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R10C2,R12C2:R110C2</Range>
+   <Type>List</Type>
+   <Value>TestSteps!R2C12:R5C12</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R11C2,R4C2:R9C2</Range>
+   <Type>List</Type>
+   <Value>TestSteps!R2C12:R57C12</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C2:R3C2</Range>
+   <Type>List</Type>
+   <Value>TestSteps!R2C12:R12C12</Value>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="TestData">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="100.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="105.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="114.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UserName</Data></Cell>
+    <Cell><Data ss:Type="String">Password</Data></Cell>
+    <Cell><Data ss:Type="String">MultiPlatform</Data></Cell>
+    <Cell><Data ss:Type="String">TargetPlatform</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">cguzman </Data></Cell>
+    <Cell><Data ss:Type="String">cguzman1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">LAT</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

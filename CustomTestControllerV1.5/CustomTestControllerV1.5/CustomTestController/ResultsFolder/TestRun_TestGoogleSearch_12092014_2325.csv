@@ -1,0 +1,3 @@
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Failed,=HYPERLINK("C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\TestResults\ErrorDetails_TestGoogleSearch_12092014_2325.html")

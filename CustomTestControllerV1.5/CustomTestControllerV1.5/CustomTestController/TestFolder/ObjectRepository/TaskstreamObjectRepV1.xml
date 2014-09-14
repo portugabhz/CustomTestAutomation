@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<taskstreamElements>
+	<UIElement ID="txtSearch">
+		<findlogic>name=q,tagname=input</findlogic>
+		<Description>Search textbox</Description>
+	</UIElement>
+	<UIElement ID="btnSearch">
+		<findlogic>name=btnG,tagname=button</findlogic>
+		<Description>Search button</Description>
+	</UIElement>
+	<UIElement ID="txtTitleSearch">
+		<findlogic>id=txtTitleSearch,tagname=input</findlogic>
+		<Description>Search textbox</Description>
+	</UIElement>
+	<UIElement ID="txtNickName">
+		<findlogic>id=nickname,tagname=input</findlogic>
+		<Description>UserName field on login page</Description>
+	</UIElement>
+	<UIElement ID="txtPassword">
+		<findlogic>id=password,tagname=input</findlogic>
+		<Description>password field on login page</Description>
+	</UIElement>
+	<UIElement ID="lnkLessonUnitRubricNav">
+		<findlogic>tagname=img,id=~img_tab_lessonUnit</findlogic>
+		<Description>Top navigation to LessonUnitandRubric</Description>
+	</UIElement>
+	<UIElement ID="lnkGoToLessonBuilder">
+		<findlogic>tagname=a,textcontent=~Lesson Builder</findlogic>
+		<Description>Click on Lesson Builder link</Description>
+	</UIElement>
+	<UIElement ID="txtTitleNew">
+		<findlogic>id=txtTitleNew,tagname=input</findlogic>
+		<Description>Create new name field, used in multiple areas</Description>
+	</UIElement>
+	<UIElement ID="selNewLessonFormat">
+		<findlogic>tagname=select,id=EncLessonTemplateId</findlogic>
+		<Description>Choose Lesson Format dropbox</Description>
+	</UIElement>
+	<UIElement ID="btnCreateNewLesson">
+		<findlogic>tagname=input,value=Create New</findlogic>
+		<Description>Click Create New, multiple areas</Description>
+	</UIElement>
+	<UIElement ID="btnTitleSearch">
+		<findlogic>tagname=input,id=btnTitleSearch</findlogic>
+		<Description>Search Title searc button, used multiple areas</Description>
+	</UIElement>
+	<UIElement ID="btnLessonContentArea_Assessment">
+		<findlogic>tagname=a,textcontent=^Assessment</findlogic>
+		<Description>Assessment content area of a lesson</Description>
+	</UIElement>
+
+	<!-- START OF Page:ContentEditor/Summary => Summary pop up on lesson builder -->
+	<UIElement ID="divSummaryDisplay">
+		<findlogic>tagname=div,id=SummaryDisplay</findlogic>
+		<Description>TextArea DIV for Lessonbuilder summary pop up</Description>
+	</UIElement>
+		
+	<UIElement ID="txtSummaryDisplayTextArea">
+		<findlogic>tagname=textarea,id=Summary</findlogic>
+		<Description>TextArea (once clicked on div) for Lessonbuilder summary pop up</Description>
+	</UIElement>
+	
+	<UIElement ID="btnSaveAndClose">
+		<findlogic>tagname=input,name=isClose</findlogic>
+		<Description>Save and Close button on Summary pop up</Description>
+	</UIElement>
+	<!-- END OF Page:ContentEditor/Summary  -->
+</taskstreamElements>

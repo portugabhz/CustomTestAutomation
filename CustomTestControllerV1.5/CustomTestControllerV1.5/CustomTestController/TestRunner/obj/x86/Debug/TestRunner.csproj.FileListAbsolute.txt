@@ -1,0 +1,12 @@
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\System\TS_TestRunner.exe.config
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\System\TS_TestRunner.exe
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\System\TS_TestRunner.pdb
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\TS_TestRunner\obj\x86\Debug\TestRunner.csprojResolveAssemblyReference.cache
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\TS_TestRunner\obj\x86\Debug\TS_TestRunner.exe
+C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\TS_TestRunner\obj\x86\Debug\TS_TestRunner.pdb
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\System\TS_TestRunner.exe.config
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\System\TS_TestRunner.exe
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\System\TS_TestRunner.pdb
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\TestRunner\obj\x86\Debug\TestRunner.csprojResolveAssemblyReference.cache
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\TestRunner\obj\x86\Debug\TS_TestRunner.exe
+C:\CustomTestControllerV1.5\CustomTestControllerV1.5\CustomTestController\TestRunner\obj\x86\Debug\TS_TestRunner.pdb

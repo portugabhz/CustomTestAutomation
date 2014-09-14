@@ -1,0 +1,10 @@
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Failed,=HYPERLINK("C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\TestResults\ErrorDetails__07082012_1605.html")

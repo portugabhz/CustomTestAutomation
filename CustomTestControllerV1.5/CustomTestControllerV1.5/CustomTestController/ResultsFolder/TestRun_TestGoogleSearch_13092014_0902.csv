@@ -1,0 +1,4 @@
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Passed

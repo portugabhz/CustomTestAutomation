@@ -1,0 +1,1645 @@
+'C:\Work In Progress - Projects\TS_CustomTestController\TS_CustomTestController\TestFolder\LoginSteps.xlsx' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+From Test Case Source: 
+LessonBuilderCRUD
+'C:\Work In Progress - Projects\TS_CustomTestController\TS_CustomTestController\TestFolder\LoginSteps.xlsx' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+Error: Could not run - (Action=Select) (Target=Activity/Lesson Long (quick form)) (FindLogic=tagname=select,name=EncLessonTemplateId) Error:ExecuteCommand failed!
+InError set by the client. Client Error:
+System.ApplicationException: Unexpected error thrown while setting the dropdown ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: DropDown was unable to find the item 'Activity/Lesson Long (quick form)' in the dropdown requested. DropDown had the following values only: 
+ - Select a Format -,
+(Elem.) College of Saint Elizabeth LP,
+5 E's Lesson Plan,
+6 Point LP for UNCW,
+AllElement,
+DTA,
+Header Test,
+In Honor of Jose Lesson Plan,
+January Test6,
+Literacy Live,
+MB test format 08-08,
+New Lesson Plan,
+NEW- Taskstream Greatest Lesson Plan,
+Newest Lesson Plan,
+NYSATL Learning Experience Outline,
+NYSATL Learning Experience Outline 2,
+OLD- Taskstream's Greatest Lesson Yet,
+Peach Springs Elementary Math LessonNO,
+Reading & Lang. Arts CLAD - DiAnn Ellis,
+Sample format,
+Short Form,
+SPL Test Format,
+SPL2,
+Spring Valley High School Lesson,
+Spring Valley Weekly Plan,
+test,
+Testiest Format,
+Testiest TEst Format,
+Testy Format New,
+Testy Lesson, yo!,
+TILT Project,
+TS Basic Lesson,
+TS Standards-Based Lesson,
+Tuesday Real Talk Lesson Plan,
+UCF Format,
+University of Toledo Lesson Plan,
+UVM Secondary Education LessonTest,
+Ventana Unit Format,
+Workshop Lesson Plan,
+xx outdated format,
+xxxxxxSun Microsystems - Open Gateways,
+Activity/Lesson Log (quick form),
+
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   --- End of inner exception stack trace ---
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessActionCommands(BrowserCommand request)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessCommand(WebBrowserClass ieInstance, BrowserCommand request, IHTMLDocument2 document)
+BrowserCommand (Type:'Action',Info:'NotSet',Action:'SelectDropDown',Target:'ElementId (tagName: 'select',occurrenceIndex: '0')',Data:'T:Activity/Lesson Long (quick form)',ClientId:'Client_0ea72fe6-5918-469f-9abf-31c7c2fc410a',HasFrames:'False',FramesInfo:'',TargetFrameIndex:'1',InError:'True',Response:'System.ApplicationException: Unexpected error thrown while setting the dropdown ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: DropDown was unable to find the item 'Activity/Lesson Long (quick form)' in the dropdown requested. DropDown had the following values only: 
+ - Select a Format -,
+(Elem.) College of Saint Elizabeth LP,
+5 E's Lesson Plan,
+6 Point LP for UNCW,
+AllElement,
+DTA,
+Header Test,
+In Honor of Jose Lesson Plan,
+January Test6,
+Literacy Live,
+MB test format 08-08,
+New Lesson Plan,
+NEW- Taskstream Greatest Lesson Plan,
+Newest Lesson Plan,
+NYSATL Learning Experience Outline,
+NYSATL Learning Experience Outline 2,
+OLD- Taskstream's Greatest Lesson Yet,
+Peach Springs Elementary Math LessonNO,
+Reading & Lang. Arts CLAD - DiAnn Ellis,
+Sample format,
+Short Form,
+SPL Test Format,
+SPL2,
+Spring Valley High School Lesson,
+Spring Valley Weekly Plan,
+test,
+Testiest Format,
+Testiest TEst Format,
+Testy Format New,
+Testy Lesson, yo!,
+TILT Project,
+TS Basic Lesson,
+TS Standards-Based Lesson,
+Tuesday Real Talk Lesson Plan,
+UCF Format,
+University of Toledo Lesson Plan,
+UVM Secondary Education LessonTest,
+Ventana Unit Format,
+Workshop Lesson Plan,
+xx outdated format,
+xxxxxxSun Microsystems - Open Gateways,
+Activity/Lesson Log (quick form),
+
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   --- End of inner exception stack trace ---
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessActionCommands(BrowserCommand request)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessCommand(WebBrowserClass ieInstance, BrowserCommand request, IHTMLDocument2 document)')
+InnerException: none.
+
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+Error: Could not run - (Action=Click) (Target=Lesson and Unit Image) (FindLogic=tagname=img,id=~img_tab_lessonUnit) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+Error: Could not run - (Action=Select) (Target=Activity/Lesson Long (quick form)) (FindLogic=tagname=select,name=EncLessonTemplateId) Error:ExecuteCommand failed!
+InError set by the client. Client Error:
+System.ApplicationException: Unexpected error thrown while setting the dropdown ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: DropDown was unable to find the item 'Activity/Lesson Long (quick form)' in the dropdown requested. DropDown had the following values only: 
+ - Select a Format -,
+(Elem.) College of Saint Elizabeth LP,
+5 E's Lesson Plan,
+6 Point LP for UNCW,
+AllElement,
+DTA,
+Header Test,
+In Honor of Jose Lesson Plan,
+January Test6,
+Literacy Live,
+MB test format 08-08,
+New Lesson Plan,
+NEW- Taskstream Greatest Lesson Plan,
+Newest Lesson Plan,
+NYSATL Learning Experience Outline,
+NYSATL Learning Experience Outline 2,
+OLD- Taskstream's Greatest Lesson Yet,
+Peach Springs Elementary Math LessonNO,
+Reading & Lang. Arts CLAD - DiAnn Ellis,
+Sample format,
+Short Form,
+SPL Test Format,
+SPL2,
+Spring Valley High School Lesson,
+Spring Valley Weekly Plan,
+test,
+Testiest Format,
+Testiest TEst Format,
+Testy Format New,
+Testy Lesson, yo!,
+TILT Project,
+TS Basic Lesson,
+TS Standards-Based Lesson,
+Tuesday Real Talk Lesson Plan,
+UCF Format,
+University of Toledo Lesson Plan,
+UVM Secondary Education LessonTest,
+Ventana Unit Format,
+Workshop Lesson Plan,
+xx outdated format,
+xxxxxxSun Microsystems - Open Gateways,
+Activity/Lesson Log (quick form),
+
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   --- End of inner exception stack trace ---
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessActionCommands(BrowserCommand request)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessCommand(WebBrowserClass ieInstance, BrowserCommand request, IHTMLDocument2 document)
+BrowserCommand (Type:'Action',Info:'NotSet',Action:'SelectDropDown',Target:'ElementId (tagName: 'select',occurrenceIndex: '0')',Data:'T:Activity/Lesson Long (quick form)',ClientId:'Client_d2ea2865-4f0d-4f89-9bb1-d606373ecc87',HasFrames:'False',FramesInfo:'',TargetFrameIndex:'1',InError:'True',Response:'System.ApplicationException: Unexpected error thrown while setting the dropdown ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: DropDown was unable to find the item 'Activity/Lesson Long (quick form)' in the dropdown requested. DropDown had the following values only: 
+ - Select a Format -,
+(Elem.) College of Saint Elizabeth LP,
+5 E's Lesson Plan,
+6 Point LP for UNCW,
+AllElement,
+DTA,
+Header Test,
+In Honor of Jose Lesson Plan,
+January Test6,
+Literacy Live,
+MB test format 08-08,
+New Lesson Plan,
+NEW- Taskstream Greatest Lesson Plan,
+Newest Lesson Plan,
+NYSATL Learning Experience Outline,
+NYSATL Learning Experience Outline 2,
+OLD- Taskstream's Greatest Lesson Yet,
+Peach Springs Elementary Math LessonNO,
+Reading & Lang. Arts CLAD - DiAnn Ellis,
+Sample format,
+Short Form,
+SPL Test Format,
+SPL2,
+Spring Valley High School Lesson,
+Spring Valley Weekly Plan,
+test,
+Testiest Format,
+Testiest TEst Format,
+Testy Format New,
+Testy Lesson, yo!,
+TILT Project,
+TS Basic Lesson,
+TS Standards-Based Lesson,
+Tuesday Real Talk Lesson Plan,
+UCF Format,
+University of Toledo Lesson Plan,
+UVM Secondary Education LessonTest,
+Ventana Unit Format,
+Workshop Lesson Plan,
+xx outdated format,
+xxxxxxSun Microsystems - Open Gateways,
+Activity/Lesson Log (quick form),
+
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   --- End of inner exception stack trace ---
+   at ArtOfTest.InternetExplorer.IECommandProcessor.SelectDropDown(IHTMLElement target, Int32 index, String text, Boolean useValue)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessActionCommands(BrowserCommand request)
+   at ArtOfTest.InternetExplorer.IECommandProcessor.ProcessCommand(WebBrowserClass ieInstance, BrowserCommand request, IHTMLDocument2 document)')
+InnerException: none.
+
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+The given key was not present in the dictionary.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+The given key was not present in the dictionary.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+The given key was not present in the dictionary.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+Index and length must refer to a location within the string.
+Parameter name: length
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+Index and length must refer to a location within the string.
+Parameter name: length
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+Index and length must refer to a location within the string.
+Parameter name: length
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+Error: Could not run - (Action=Verify) (Target=You are about to DELETE this lesson. Deleted work will ONLY be available for restoration for 30 days. The Restoration tool is located in the Mybrary under Resources tab from the top navigation bar.) (FindLogic=textcontent=^Your are about, tagname=div) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+Error: Could not run - (Action=Click) (Target=Lesson and Unit Image) (FindLogic=tagname=img,id=~img_tab_lessonUnit) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+Error: Could not run - (Action=Verify) (Target=TextContent=Search) (FindLogic=tagname=input,id=btnTitleSearch) Error:Index and length must refer to a location within the string.
+Parameter name: length
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+Error: Could not run - (Action=Type) (Target=AutomationGuy1 ) (FindLogic=id=nickname,tagname=input) Error:There are multiple root elements. Line 6, position 2.
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=AutomationGuy1 ) (FindLogic=id=nickname,tagname=input) Error:Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+Error: Could not run - (Action=Click) (Target=Lesson and Unit Image) (FindLogic=tagname=img,id=~img_tab_lessonUnit) Error:Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+Access to the path 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\TestFolder\ObjectRepository' is denied.
+From Test Case Source: 
+LessonBuilderCRUD
+Access to the path 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\TestFolder\ObjectRepository' is denied.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+Non white space characters cannot be added to content.
+From Test Case Source: 
+LessonBuilderCRUD
+Non white space characters cannot be added to content.
+From Test Case Source: 
+LessonBuilderCRUD
+Non white space characters cannot be added to content.
+From Test Case Source: 
+LessonBuilderCRUD
+Non white space characters cannot be added to content.
+From Test Case Source: 
+LessonBuilderCRUD
+Non white space characters cannot be added to content.
+From Test Case Source: 
+LessonBuilderCRUD
+Non white space characters cannot be added to content.
+From Test Case Source: 
+LessonBuilderCRUD
+Non white space characters cannot be added to content.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindLogic=txtNickNameFindFromObject=too many elements found) Error:Invalid expression 'too many elements found'
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName XML Object Repository return = too many elements found) Error:Invalid expression 'too many elements found'
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Set Frame) (Target=null) (FindLogic=NULL) Error:Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+Bad element search: It returns null or more than one element Error:Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName XML Object Repository return = id=txtTitleSearch,tagname=input) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Bad element search, probably returns null Error:some shyte Error:
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName XML Object Repository return = Too many) Error:Invalid expression 'Too many'
+From Test Case Source: 
+LessonBuilderCRUD
+Sequence contains no elements
+From Test Case Source: 
+LessonBuilderCRUD
+Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+NULL Error: 
+From Test Case Source: 
+LessonBuilderCRUD
+Too many arguments found in the repository with that ID Error: too many
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName XML Object Repository return = <findlogic>id=nickname,tagname=input</findlogic>) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName XML Object Repository return = <findlogic>id=nickname,tagname=input</findlogic>) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName XML Object Repository return = <findlogic>id=nickname,tagname=input</findlogic>) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName, XML Object Repository return = <findlogic>id=nickname,tagname=input</findlogic>) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName, XML Object Repository return = <findlogic>id=nickname,tagname=input</findlogic>) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName, XML Object Repository return = <findlogic>id=nickname,tagname=input</findlogic>) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+Error: Could not run - (Action=Type) (Target=cguzman ) (FindID=txtNickName, XML Object Repository return = <findlogic>id=nickname,tagname=input</findlogic>) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+No elements found in the repository with that ID
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+No elements found in the repository with that ID
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+Could not find a part of the path 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\ResultsFolder\TestRun_01082012_1421.csv'.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+No elements found in the repository with that ID
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\TestFolder\LessonBuilder\Goto_LessonBuilder.xml' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+No elements found in the repository with that ID
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+No elements found in the repository with that ID
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+Error: Could not run - (Action=Call) (Target=LessonBuilderCodedStep.ClickFoundLesson) (FindLogic=NULL) Error:Exception has been thrown by the target of an invocation.
+From Test Case Source: 
+LessonBuilderCRUD
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+Error: Could not run - (Action=Call) (Target=TestCodedStep2.ClickPlatform) (FindLogic=NULL) Error:Class or Method - TestCodedStep2.ClickPlatform does not exist or threw an exception.
+From Test Case Source: 
+LoginStepsXML
+Error: Could not run - (Action=Call) (Target=TestCodedStep2.ClickPlatform) (FindLogic=NULL) Error:Class or Method - TestCodedStep2.ClickPlatform does not exist or threw an exception.
+From Test Case Source: 
+LoginStepsXML
+Error: Could not run - (Action=Call) (Target=TestCodedStep2.ClickPlatform) (FindLogic=NULL) Error:Class or Method - TestCodedStep2.ClickPlatform does not exist or threw an exception.
+From Test Case Source: 
+LoginStepsXML
+Error: Could not run - (Action=Call) (Target=TestCodedStep2.ClickPlatform) (FindLogic=NULL) Error:Class or Method - TestCodedStep2.ClickPlatform does not exist or threw an exception.
+From Test Case Source: 
+LoginStepsXML
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+Error: Could not run - (Action=Set Table) (Target=\\TestDataSheet.xml) (FindLogic=NULL) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LoginStepsXML2
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+LoginStepsXML2
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+7,,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+7,,Passed
+8,Click Login button,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+7,Click Login button,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+7,Click Login button,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+7,Click Login button,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+7,Click Login button,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Type AutomationGuy1 on username,Passed
+4,Type taskstream1 on password,Passed
+5,,Passed
+6,,Passed
+7,,Passed
+8,Click Login button,Passed
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+3,,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:An item with the same key has already been added.
+From Test Case Source: 
+LoginStepsXML2
+1,,Passed
+The process cannot access the file 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\ResultsFolder\TestRun_LoginStepsXML2_08082012_1518.csv' because it is being used by another process.
+From Test Case Source: 
+LoginStepsXML2
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:An item with the same key has already been added.
+From Test Case Source: 
+LoginStepsXML2
+1,,Passed
+The process cannot access the file 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\ResultsFolder\TestRun_LoginStepsXML2_08082012_1519.csv' because it is being used by another process.
+From Test Case Source: 
+LoginStepsXML2
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:An item with the same key has already been added.
+From Test Case Source: 
+LoginStepsXML2
+1,,Passed
+The process cannot access the file 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\ResultsFolder\TestRun_LoginStepsXML2_08082012_1526.csv' because it is being used by another process.
+From Test Case Source: 
+LoginStepsXML2
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:An item with the same key has already been added.
+From Test Case Source: 
+LoginStepsXML2
+1,,Passed
+The process cannot access the file 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\ResultsFolder\TestRun_LoginStepsXML2_08082012_1527.csv' because it is being used by another process.
+From Test Case Source: 
+LoginStepsXML2
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:An item with the same key has already been added.
+From Test Case Source: 
+LoginStepsXML2
+1,,Passed
+The process cannot access the file 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\ResultsFolder\TestRun_LoginStepsXML2_08082012_1534.csv' because it is being used by another process.
+From Test Case Source: 
+LoginStepsXML2
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:An item with the same key has already been added.
+From Test Case Source: 
+LoginStepsXML2
+Error: Could not run - (Action=Set Table) (Target=\TestDataSheet.xml) (FindLogic=NULL) Error:An item with the same key has already been added.
+From Test Case Source: 
+LoginStepsXML2
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+The process cannot access the file 'C:\Subversion\QA\TS_CustomTestControllerV1.4\TS_CustomTestController\ResultsFolder\TestRun__08082012_1824.csv' because it is being used by another process.
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Open browser and navigate to LIVE,Passed
+4,Type AutomationGuy1 on username,Passed
+5,Type taskstream1 on password,Passed
+6,Click Login button,Passed
+1,Execute Login Test,Passed
+Error: Could not run - (Action=Click) (Target=Lesson and Unit Image) (FindID=lnkLessonUnitRubricNav, XML Object Repository return = tagname=img,id=~img_tab_lessonUnit) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+Goto_LessonBuilder
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+1,Execute Login Test,Passed
+2,Go to Lesson Builder,Passed
+3,Execute Lesson Builder Create,Passed
+4,Go back to Lesson Builder,Passed
+5,Find the Lesson using Search facility in Lesson Builder,Passed
+6,Go back to Lesson Builder,Passed
+7,Update Text in Lesson Summary,Passed
+8,Go back to Lesson Builder,Passed
+9,Find the Lesson and delete in  Lesson Builder,Passed
+Error: Could not run - (Action=Call) (Target=TestCodedStep.ClickPlatform) (FindLogic=NULL) Error:An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+From Test Case Source: 
+LoginStepsXML
+Error: Could not run - (Action=Call) (Target=TestCodedStep.ClickPlatform) (FindLogic=NULL) Error:An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+From Test Case Source: 
+LoginStepsXML
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_12092014_2321.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_12092014_2325.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_12092014_2326.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_13092014_0635.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Open browser and navigate to LIVE,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_13092014_0659.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+Error: Could not run - (Action=Type) (Target=NYSE) (FindID=txtSearch, XML Object Repository return = id=q,tagname=input) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+Error: Could not run - (Action=Type) (Target=NYSE) (FindID=txtSearch, XML Object Repository return = id=q,tagname=input) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+Error: Could not run - (Action=Type) (Target=NYSE) (FindID=txtSearch, XML Object Repository return = id=q,tagname=input) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = id=gbqfa,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = id=gbqfa,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = id=gbqfa,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_13092014_0855.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = id=btnG,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_13092014_0857.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = id=btnG,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = id=btnG,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Passed
+1,Set frame to null,Passed
+The process cannot access the file 'C:\TS_CustomTestControllerV1.5\TS_CustomTestControllerV1.5\TS_CustomTestController\ResultsFolder\TestRun_TestGoogleSearch_13092014_0902.csv' because it is being used by another process.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Passed
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Passed
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = name=btnG1,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = name=btnG1,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = name=btnG1,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+Error: Could not run - (Action=Click) (Target=Search) (FindID=btnSearch, XML Object Repository return = name=btnG1,tagname=button) Error:Object reference not set to an instance of an object.
+From Test Case Source: 
+TestGoogleSearch
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Passed
+1,Set frame to null,Passed
+2,Open browser and navigate to LIVE,Passed
+3,Search for NYSE,Passed
+4,Click for search button,Passed
