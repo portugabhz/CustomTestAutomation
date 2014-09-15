@@ -11,14 +11,14 @@
   <Created>2012-07-03T13:40:48Z</Created>
   <LastSaved>2012-07-27T22:37:27Z</LastSaved>
   <Company>Microsoft</Company>
-  <Version>14.00</Version>
+  <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9945</WindowHeight>
-  <WindowWidth>18195</WindowWidth>
+  <WindowHeight>9948</WindowHeight>
+  <WindowWidth>18192</WindowWidth>
   <WindowTopX>480</WindowTopX>
   <WindowTopY>180</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -49,15 +49,15 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="TestConfig">
-  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="4" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="2" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Column ss:AutoFitWidth="0" ss:Width="90.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="256.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="218.25"/>
-   <Column ss:AutoFitWidth="0" ss:Width="246.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="250.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="311.25" ss:Span="1"/>
-   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="477.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90.6"/>
+   <Column ss:AutoFitWidth="0" ss:Width="256.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="218.39999999999998"/>
+   <Column ss:AutoFitWidth="0" ss:Width="246.6"/>
+   <Column ss:AutoFitWidth="0" ss:Width="250.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="311.40000000000003" ss:Span="1"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="477.6"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Config Name</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">Start URL</Data></Cell>
@@ -69,33 +69,12 @@
     <Cell ss:StyleID="s63"><Data ss:Type="String">Element Repository</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"><Data ss:Type="String">TSLIVE1</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">https://www.taskstream.com/pub/default.asp</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GoogleLive</Data></Cell>
+    <Cell ss:StyleID="s66" ss:HRef="http://www.google.com/"><Data ss:Type="String">http://www.google.com</Data></Cell>
     <Cell><Data ss:Type="String">\TestFolder</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">\TestResults</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">\ImageResults</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">\TestDriver.xml</Data></Cell>
-    <Cell ss:StyleID="s64"/>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\TaskstreamObjectRepV1.xml</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"><Data ss:Type="String">TSLIVE2</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">https://www.taskstream.com/pub/default.asp</Data></Cell>
-    <Cell><Data ss:Type="String">\TestFolder</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\TestResults</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\ImageResults</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\TestDriver.xml</Data></Cell>
-    <Cell ss:StyleID="s64"/>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\TaskstreamObjectRepV1.xml</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s64"><Data ss:Type="String">TSTRUNK</Data></Cell>
-    <Cell ss:StyleID="s66" ss:HRef="https://main-qa-trunk.murgler.org/pub/default.asp"><Data
-      ss:Type="String">https://main-qa-trunk.murgler.org/pub/default.asp</Data></Cell>
-    <Cell><Data ss:Type="String">\TestFolder</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\TestResults</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\ImageResults</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">\TestDriver2.xml</Data></Cell>
     <Cell ss:StyleID="s64"/>
     <Cell ss:StyleID="s64"><Data ss:Type="String">\TaskstreamObjectRepV1.xml</Data></Cell>
    </Row>
@@ -113,12 +92,11 @@
     <VerticalResolution>0</VerticalResolution>
    </Print>
    <Selected/>
-   <LeftColumnVisible>3</LeftColumnVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>2</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
